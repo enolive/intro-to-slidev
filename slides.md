@@ -1,6 +1,5 @@
 ---
 theme: datev-scc
-class: 'text-center'
 highlighter: shiki
 lineNumbers: false
 info: |
@@ -9,32 +8,22 @@ info: |
 drawings:
   persist: false
 download: true
+title: Intro to Slidev
 ---
 
 # Intro to Slidev
 
 Das Powerpoint für Entwickler
 
-<carbon-link />[enolive.github.io/intro-to-slidev](https://enolive.github.io/intro-to-slidev)
+<carbon-link /> [enolive.github.io/intro-to-slidev](https://enolive.github.io/intro-to-slidev)
 
-<div class="abs-tr">
-  <a href="https://github.com/enolive/intro-to-slidev" target="_blank" alt="GitHub"
-    class="text-xl icon-btn !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-  <a href="https://enolive.github.io/intro-to-slidev/slidev-exported.pdf" alt="Download PDF"
-    class="text-xl icon-btn !border-none !hover:text-white">
-    <carbon-download />
-  </a>
-</div>
+<VCard />
 
----
-layout: center
 ---
 
 # Warum?
 
-Powerpoint & Co sind nicht für Entwickler gemacht!
+<carbon-arrow-right /> Powerpoint & Co sind nicht für Entwickler gemacht!
 
 
 ---
@@ -59,12 +48,20 @@ p {
 
 <fa-youtube/>[How to avoid death by PowerPoint](https://www.youtube.com/watch?v=Iwpi1Lm6dFo)
 
-<mdi-arrow-right-circle-outline/>
-Gute Präsentationen sollten sich auf Inhalt statt Layout konzentrieren!
+<carbon-arrow-right />
+Konzentration auf Inhalt statt Layout!
+
+<style>
+  h1 {
+    @apply text-2xl;
+  }
+</style>
 
 ---
 
 # Syntax Highlighting
+
+<div v-click-hide>
 
 Code wird automatisch hervorgehoben!
 
@@ -76,7 +73,9 @@ class App {
 }
 ```
 
-<div v-click>
+</div>
+
+<div v-after>
   
 ... Auch für exotischere Sprachen 😉.
   
@@ -96,11 +95,11 @@ fizzBuzz n = take n $ zipWith max fizzBuzzes numbers
 
 ---
 
-# Diagramme
+## Diagramme
 
 <div class="grid grid-cols-2 gap-4">
 
-<div>
+<div v-click-hide>
   
 Diagramme mit [Mermaid](https://mermaid-js.github.io) direkt einbetten!
   
@@ -130,7 +129,7 @@ classDiagram
 ```
 </div>
 
-<div v-click>
+<div v-after>
   
 ...auch ausgefallenere Dinge als UML 😉.
 
@@ -153,13 +152,13 @@ journey
 
 ---
 
-# Versionierung
+## Versionierung
 
-Plain-text lässt sich einfacher versionieren als Binary Files!
+<carbon-arrow-right /> Plain-text einfacher als Binary Files!
 
 ---
 
-# Slidev Quick Facts
+## Slidev Quick Facts
 
 - [sli.dev](https://sli.dev)
 - Basiert auf Vue.JS 3.x
@@ -170,10 +169,10 @@ Plain-text lässt sich einfacher versionieren als Binary Files!
 
 ---
 
-# Wie fange ich an?
+## Wie fange ich an?
 
 1. Installation mit `npm init slidev`
-2. <span class="opacity-50">Theme anpassen (optional)</span>
+2. <span class="opacity-50">Theme anpassen</span>
 
 ```yaml
 theme: datev-scc
@@ -183,9 +182,11 @@ theme: datev-scc
 
 ---
 
-# Editor
+## Editor
 
 [VS Code](https://code.visualstudio.com/) mit Extensions für [Windi CSS](https://marketplace.visualstudio.com/items?itemName=voorjaar.windicss-intellisense) und [Slidev](https://marketplace.visualstudio.com/items?itemName=antfu.slidev)
+
+<div v-click>
 
 Meine `settings.json`
 
@@ -202,14 +203,20 @@ Meine `settings.json`
 }
 ```
 
+</div>
+
 <!--
 Zur Not geht aber auch der Web Browser!
 -->
 
 ---
+layout: cover
+---
 
-# 🙏 Danke! 🙏
+# 🙇 Danke! 🙇
 
 - <carbon-link /> [sli.dev](https://sli.dev)
 - <carbon-logo-github /> [github.com/enolive/intro-to-slidev](https://github.com/enolive/intro-to-slidev)
 - <mdi-npm /> [npmjs.com/package/slidev-theme-datev-scc](https://www.npmjs.com/package/slidev-theme-datev-scc)
+
+<VCard />
