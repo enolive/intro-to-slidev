@@ -1,5 +1,5 @@
 <template>
-  <div class="abs-tr text-base pt-3">
+  <div class="abs-tr text-base pt-3 pr-3">
     <a
       href="https://github.com/enolive/intro-to-slidev"
       target="_blank"
