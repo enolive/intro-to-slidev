@@ -9,6 +9,7 @@ info: |
   Das Powerpoint für Entwickler
 drawings:
   persist: false
+download: true
 ---
 
 # Intro to Slidev
