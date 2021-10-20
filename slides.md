@@ -173,19 +173,6 @@ class: text-3xl
 
 
 ---
-layout: image
-image: https://source.unsplash.com/random?coding
----
-
-# Demo 👩‍💻
-
-<style>
-  h1 {
-    @apply text-shadow-xl;
-  }
-</style>
-
----
 
 # Wie fange ich an?
 
@@ -197,6 +184,19 @@ theme: datev-scc
 ```
 
 3. Inhalt in `slides.md` schreiben!
+
+---
+layout: image
+image: https://source.unsplash.com/random?coding
+---
+
+# Demo 👩‍💻
+
+<style>
+  h1 {
+    @apply text-shadow-xl;
+  }
+</style>
 
 ---
 
