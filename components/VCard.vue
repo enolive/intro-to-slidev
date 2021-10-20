@@ -1,5 +1,5 @@
 <template>
-  <div class="abs-tr text-base flex items-center opacity-75 pt-3 pr-3">
+  <div class="abs-tr text-base flex items-center pt-3 pr-3">
     <a
       href="https://github.com/enolive/intro-to-slidev"
       target="_blank"
