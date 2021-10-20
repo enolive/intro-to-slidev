@@ -2,14 +2,14 @@
   "private": true,
   "scripts": {
     "build": "slidev build --base /intro-to-slidev/",
-    "dev": "slidev --open",
+    "dev": "slidev",
     "export": "slidev export"
   },
   "dependencies": {
     "@slidev/cli": "^0.27.8",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
-    "slidev-theme-datev-scc": "0.0.10"
+    "slidev-theme-datev-scc": "0.1.0"
   },
   "name": "intro-to-slidev",
   "devDependencies": {

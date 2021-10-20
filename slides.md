@@ -18,7 +18,7 @@ Das Powerpoint für Entwickler
 
 <carbon-link /> [enolive.github.io/intro-to-slidev](https://enolive.github.io/intro-to-slidev)
 
-<VCard />
+<MyVCard />
 
 ---
 layout: cover
@@ -268,4 +268,4 @@ layout: cover
 - <mdi-npm /> [npmjs.com/package/slidev-theme-datev-scc](https://www.npmjs.com/package/slidev-theme-datev-scc)
 - <fa-youtube/> [How to avoid death by PowerPoint](https://www.youtube.com/watch?v=Iwpi1Lm6dFo)
 
-<VCard />
+<MyVCard />
