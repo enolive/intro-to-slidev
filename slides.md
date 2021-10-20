@@ -9,6 +9,7 @@ drawings:
   persist: false
 download: true
 title: Intro to Slidev
+layout: intro
 ---
 
 # Intro to Slidev
@@ -20,11 +21,13 @@ Das Powerpoint für Entwickler
 <VCard />
 
 ---
+layout: cover
+class: text-3xl
+---
 
 # Warum?
 
 <carbon-arrow-right /> Powerpoint & Co sind nicht für Entwickler gemacht!
-
 
 ---
 layout: quote
@@ -42,20 +45,19 @@ p {
 
 ---
 
-# Richtiger Fokus
+# PowerPoint nicht automatisch schlecht!
 
-<Youtube id="Iwpi1Lm6dFo" />
+<Youtube id="Iwpi1Lm6dFo" width="600" height="400" />
 
-<fa-youtube/>[How to avoid death by PowerPoint](https://www.youtube.com/watch?v=Iwpi1Lm6dFo)
+---
 
-<carbon-arrow-right />
-Konzentration auf Inhalt statt Layout!
+# <carbon-arrow-right /> Inhalt vor Layout!
 
-<style>
-  h1 {
-    @apply text-2xl;
-  }
-</style>
+|                                             |                 |                  |
+|---------------------------------------------|-----------------|------------------|
+| [Patat](https://github.com/jaspervdj/patat) | Terminal        | Markdown         |
+| [RevealJS](https://revealjs.com/)           | Browser         | HTML + Markdown  |
+| [Slidev](https://sli.dev)                   | Browser         | Markdown + VueJS |
 
 ---
 
@@ -151,14 +153,17 @@ journey
 
 
 ---
+layout: cover
+class: text-3xl
+---
 
-## Versionierung
+# Versionierung
 
 <carbon-arrow-right /> Plain-text einfacher als Binary Files!
 
 ---
 
-## Slidev Quick Facts
+# Slidev Quick Facts
 
 - [sli.dev](https://sli.dev)
 - Basiert auf Vue.JS 3.x
@@ -182,7 +187,7 @@ image: https://source.unsplash.com/random?coding
 
 ---
 
-## Wie fange ich an?
+# Wie fange ich an?
 
 1. Installation mit `npm init slidev`
 2. <span class="opacity-50">Theme anpassen</span>
@@ -195,7 +200,7 @@ theme: datev-scc
 
 ---
 
-## Editor
+# Editor
 
 [VS Code](https://code.visualstudio.com/) mit Extensions für [Windi CSS](https://marketplace.visualstudio.com/items?itemName=voorjaar.windicss-intellisense) und [Slidev](https://marketplace.visualstudio.com/items?itemName=antfu.slidev)
 
@@ -231,5 +236,6 @@ layout: cover
 - <carbon-link /> [sli.dev](https://sli.dev)
 - <carbon-logo-github /> [github.com/enolive/intro-to-slidev](https://github.com/enolive/intro-to-slidev)
 - <mdi-npm /> [npmjs.com/package/slidev-theme-datev-scc](https://www.npmjs.com/package/slidev-theme-datev-scc)
+- <fa-youtube/>[How to avoid death by PowerPoint](https://www.youtube.com/watch?v=Iwpi1Lm6dFo)
 
 <VCard />
