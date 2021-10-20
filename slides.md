@@ -29,6 +29,12 @@ class: text-3xl
 
 <carbon-arrow-right /> Powerpoint & Co sind nicht für Entwickler gemacht!
 
+<style>
+  h1 {
+    @apply !text-2xl;
+  }
+</style>
+
 ---
 layout: quote
 author: "Kamelopedia: Porno-Point-Präsentation"
@@ -50,8 +56,10 @@ p {
 <Youtube id="Iwpi1Lm6dFo" width="600" height="400" />
 
 ---
+class: text-3xl
+---
 
-# <carbon-arrow-right /> Inhalt vor Layout!
+# Inhalt vor Layout!
 
 |                                             |                 |                  |
 |---------------------------------------------|-----------------|------------------|
@@ -161,9 +169,19 @@ class: text-3xl
 
 <carbon-arrow-right /> Plain-text einfacher als Binary Files!
 
+<style>
+  h1 {
+    @apply !text-2xl;
+  }
+</style>
+
+---
+class: fade
 ---
 
 # Slidev Quick Facts
+
+<v-clicks>
 
 - [sli.dev](https://sli.dev)
 - Basiert auf Vue.JS 3.x
@@ -171,19 +189,31 @@ class: text-3xl
 - Markdown Syntax
 - CSS Customizing möglich inkl. [Windi CSS](https://windicss.org/)
 
+</v-clicks>
 
 ---
 
 # Wie fange ich an?
 
+<div class="fade">
+
+<v-clicks>
+
 1. Installation mit `npm init slidev`
-2. <span class="opacity-50">Theme anpassen</span>
+2. Inhalt in `slides.md` schreiben!
+3. Theme anpassen
+
+</v-clicks>
+
+</div>
+
+<v-click>
 
 ```yaml
 theme: datev-scc
 ```
 
-3. Inhalt in `slides.md` schreiben!
+</v-click>
 
 ---
 layout: image
