@@ -236,6 +236,6 @@ layout: cover
 - <carbon-link /> [sli.dev](https://sli.dev)
 - <carbon-logo-github /> [github.com/enolive/intro-to-slidev](https://github.com/enolive/intro-to-slidev)
 - <mdi-npm /> [npmjs.com/package/slidev-theme-datev-scc](https://www.npmjs.com/package/slidev-theme-datev-scc)
-- <fa-youtube/>[How to avoid death by PowerPoint](https://www.youtube.com/watch?v=Iwpi1Lm6dFo)
+- <fa-youtube/> [How to avoid death by PowerPoint](https://www.youtube.com/watch?v=Iwpi1Lm6dFo)
 
 <VCard />
