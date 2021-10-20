@@ -9,13 +9,6 @@
       <carbon-logo-github />
     </a>
     <a
-      href="https://enolive.github.io/intro-to-slidev/slidev-exported.pdf"
-      alt="Download PDF"
-      class="icon-btn !p-1 !border-none !hover:text-white"
-    >
-      <carbon-download />
-    </a>
-    <a
       href="https://twitter.com/ChristophWelcz"
       alt="Twitter"
       class="icon-btn !p-1 !border-none !hover:text-white"
