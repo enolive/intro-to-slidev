@@ -1,5 +1,5 @@
 <template>
-  <div class="abs-tr text-base pt-3 pr-3">
+  <div class="abs-tr text-base flex items-center opacity-75 pt-3 pr-3">
     <a
       href="https://github.com/enolive/intro-to-slidev"
       target="_blank"
@@ -20,9 +20,7 @@
       alt="Twitter"
       class="icon-btn !p-1 !border-none !hover:text-white"
     >
-      <div class="inline-flex items-center">
-        <carbon-logo-twitter /> ChristophWelcz
-      </div>
+      <carbon-logo-twitter /> ChristophWelcz
     </a>
   </div>
 </template>
