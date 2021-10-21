@@ -9,7 +9,7 @@
     "@slidev/cli": "^0.27.8",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
-    "slidev-theme-datev-scc": "0.1.0"
+    "slidev-theme-datev-scc": "0.2.0"
   },
   "name": "intro-to-slidev",
   "devDependencies": {
