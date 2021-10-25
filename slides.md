@@ -1,6 +1,5 @@
 ---
 theme: datev-scc
-highlighter: shiki
 lineNumbers: false
 info: |
   ## Slidev
