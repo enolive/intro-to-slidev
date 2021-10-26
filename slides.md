@@ -63,7 +63,7 @@ class: text-3xl
 |                                             |                 |                  |
 |---------------------------------------------|-----------------|------------------|
 | [Patat](https://github.com/jaspervdj/patat) | Terminal        | Markdown         |
-| [RevealJS](https://revealjs.com/)           | Browser         | HTML + Markdown  |
+| [Reveal JS](https://revealjs.com/)          | Browser         | HTML + Markdown  |
 | [Slidev](https://sli.dev)                   | Browser         | Markdown + VueJS |
 
 ---
@@ -106,13 +106,12 @@ fizzBuzz n = take n $ zipWith max fizzBuzzes numbers
 
 ## Diagramme
 
-<div class="grid grid-cols-2 gap-4">
+<div grid="~ cols-2 gap-4">
 
 <div v-click-hide>
   
 Diagramme mit [Mermaid](https://mermaid-js.github.io) direkt einbetten!
-  
-  
+   
 ```mermaid {scale: 0.5}
 classDiagram
       Animal <|-- Duck
