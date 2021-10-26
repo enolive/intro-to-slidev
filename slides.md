@@ -111,7 +111,7 @@ fizzBuzz n = take n $ zipWith max fizzBuzzes numbers
 <div v-click-hide>
   
 Diagramme mit [Mermaid](https://mermaid-js.github.io) direkt einbetten!
-   
+
 ```mermaid {scale: 0.5}
 classDiagram
       Animal <|-- Duck
@@ -135,6 +135,7 @@ classDiagram
           +run()
       }
 ```
+
 </div>
 
 <div v-after>
